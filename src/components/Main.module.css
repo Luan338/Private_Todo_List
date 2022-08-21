@@ -1,0 +1,70 @@
+main {
+  width: 100%;
+  max-width: 50rem;
+  margin: 0 auto;
+}
+
+.form_todo_list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  position: relative;
+  bottom: 1.6rem;
+}
+
+.input_text {
+  background-color: var(--gray-500);
+  color: var(--gray-100);
+  outline: none;
+  border-radius: 5px;
+  padding: 0.8rem;
+  border: 1px solid var(--gray-700);
+  width: 85%;
+}
+
+.input_text:focus {
+  border: 1.3px solid black;
+  outline: 2px solid var(--blue-dark);
+}
+
+.btn_create {
+  border-radius: 8px;
+  border: none;
+  padding: 0.8rem;
+  cursor: pointer;
+  background-color: var(--blue-dark);
+  color: var(--gray-100);
+  width: 5.8rem;
+  font-weight: 700;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.container {
+  width: 100%;
+}
+
+.status {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 2rem;
+}
+
+.create {
+  color: var(--blue-100);
+}
+
+.concluded {
+  color: var(--purple-100);
+}
+
+span {
+  color: var(--gray-200);
+  background-color: var(--gray-400);
+  padding: 0.3rem;
+  border-radius: 10%;
+}
